@@ -1,0 +1,987 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "59138c7e-cfbe-499f-87b5-082dbf6738d9",
+   "metadata": {},
+   "source": [
+    "# By the end of this lesson, you will be able to: #\n",
+    "\n",
+    "\n",
+    "## identify the differences among multiple data types. ##\n",
+    "\n",
+    "## Access and manipulate data within list and dict objects by using index-based elements and key-value pairs, respectively. ##\n",
+    "\n",
+    "## Iterate over lists and dicts. ##\n",
+    "\n",
+    "## Visualize and iterate over nested lists and dicts. ##\n",
+    "\n",
+    "## Define and call custom functions. ##\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "56981213-9db6-4b9c-b46e-b146e5df5ab3",
+   "metadata": {},
+   "source": [
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d0bd2284-a293-449d-a3e4-c5c1994f7995",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "393db8e9-accb-4ac5-bb84-7ebc94abb256",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Give me a :p!\n",
+      "p! \n",
+      "Give me a :y!\n",
+      "y! \n",
+      "Give me a :t!\n",
+      "t! \n",
+      "Give me a :h!\n",
+      "h! \n",
+      "Give me a :o!\n",
+      "o! \n",
+      "Give me a :n!\n",
+      "n! \n",
+      "Give me a :F!\n",
+      "F! \n",
+      "Give me a :i!\n",
+      "i! \n",
+      "Give me a :n!\n",
+      "n! \n",
+      "Give me a :T!\n",
+      "T! \n",
+      "Give me a :e!\n",
+      "e! \n",
+      "Give me a :c!\n",
+      "c! \n",
+      "Give me a :h!\n",
+      "h! \n",
+      "Give me a :M!\n",
+      "M! \n",
+      "Give me a :o!\n",
+      "o! \n",
+      "Give me a :n!\n",
+      "n! \n",
+      "Give me a :e!\n",
+      "e! \n",
+      "Give me a :y!\n",
+      "y! \n"
+     ]
+    }
+   ],
+   "source": [
+    "cheer = [\"python\" , \"FinTech\" , \"Money\"]\n",
+    "\n",
+    "for i in range(len(cheer)):\n",
+    "    for x in cheer[i]:\n",
+    "        print( \"Give me a :\"+ x +\"!\")\n",
+    "        print(x + \"! \")\n",
+    "        \n",
+    "        \n",
+    "        \n",
+    "        \n",
+    "        "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "dcbbc34a-909d-4b52-b0c8-5f0b9b704644",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'pikachu'"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "pokemon = [\"pikachu\", \"bulbasaur\" , \"onyx\"]\n",
+    "\n",
+    "pokemon[0]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "7d9911f4-a3f7-42c0-ab4a-a29d9528cdd3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "for x in range(5):\n",
+    "    val = \"anotherValue\" + str(x)\n",
+    "    cheer.append(val)\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "51780c19-29f6-4c7b-89ff-79bc9a4cf0fa",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['Money', 'anotherValue0', 'anotherValue1']"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "cheer[2:5]\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a3e0c2d7-7ab0-4321-9e79-e954ec12d549",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "83d29c51-f9b9-42f5-8cb7-157476fcf5c9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['python', 'FinTech', 'Money', 'anotherValue0', 'anotherValue1', 'anotherValue2', 'newval', 'anotherValue4', 'newval2', 'newval2', 'newval2']\n",
+      "['python', 'FinTech', 'Money', 'anotherValue0', 'anotherValue1', 'anotherValue2', 'newval', 'anotherValue4', 'newval2', 'newval2', 'newval2', 'newval2']\n",
+      "12\n"
+     ]
+    },
+    {
+     "ename": "ValueError",
+     "evalue": "'money' is not in list",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mValueError\u001b[0m                                Traceback (most recent call last)",
+      "\u001b[0;32m/var/folders/qk/ky5l2lgx5yd_09d2j843f0rh0000gn/T/ipykernel_91806/2878099976.py\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[1;32m     11\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     12\u001b[0m \u001b[0;31m# find the index of a partiicular elemint in a list\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 13\u001b[0;31m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\" index of money is :\"\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mstr\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mcheer\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mindex\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"money\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     14\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     15\u001b[0m \u001b[0;31m# remove an element from a list\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;31mValueError\u001b[0m: 'money' is not in list"
+     ]
+    }
+   ],
+   "source": [
+    "# jump\n",
+    "[1::2]\n",
+    "\n",
+    "# change the value for particular index\n",
+    "cheer[6] = \"newval\"\n",
+    "print(cheer)\n",
+    "\n",
+    "# append new data tp the list\n",
+    "cheer.append(\"newval2\")\n",
+    "print(cheer)\n",
+    "\n",
+    "# find length of a list \n",
+    "print(len(cheer))\n",
+    "\n",
+    "# find the index of a partiicular elemint in a list \n",
+    "print(\" index of money is :\", str(cheer.index(\"money\")))\n",
+    "\n",
+    "# remove an element from a list \n",
+    "cheer .remove(\"anothervalue4\")\n",
+    "\n",
+    "# remove element from list based on index\n",
+    "cheep.pop(cheer.index(\"money\"))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a622be34-049e-48cb-a555-d646823d84e4",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "4bd46d0a-dd08-43c2-be44-0b849f976950",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "cheer.append(\"money\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "3affe31d-e039-44d2-9cf0-cc9b7fe7ca59",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['python',\n",
+       " 'FinTech',\n",
+       " 'Money',\n",
+       " 'anotherValue0',\n",
+       " 'anotherValue1',\n",
+       " 'anotherValue2',\n",
+       " 'newval',\n",
+       " 'anotherValue4',\n",
+       " 'newval2',\n",
+       " 'newval2',\n",
+       " 'newval2',\n",
+       " 'newval2',\n",
+       " 'money']"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "cheer"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "150ca588-d480-4873-81d1-8e479f46a53b",
+   "metadata": {},
+   "source": [
+    "# Sugar, Flour, Butter!\n",
+    "\n",
+    "In this activity, you will work with lists to maintain a grocery list. You will create lists, append to lists, retrieve `n` items from a list, and retrieve values by indexes.\n",
+    "\n",
+    "## Background\n",
+    "\n",
+    "Mike needs to plan his grocery list so that he can buy the ingredients needed to make some delicious apple pie. Help Mike create and modify his list of groceries before he leaves for the supermarket. Then help him cross off items as he gathers the ingredients he needs.\n",
+    "\n",
+    "## Instructions\n",
+    "\n",
+    "Use the [starter file](Unsolved/Core/grocery_list_core.py) to complete the following steps.\n",
+    "\n",
+    "1. Create a grocery list for the apple pie ingredients:\n",
+    "\n",
+    "    * Water\n",
+    "    * Butter\n",
+    "    * Eggs\n",
+    "    * Apples\n",
+    "    * Cinnamon\n",
+    "    * Sugar\n",
+    "    * Milk\n",
+    "\n",
+    "2. Find the first two items on Mike's grocery list.\n",
+    "\n",
+    "3. Find the last five items on Mike's grocery list.\n",
+    "\n",
+    "4. Find _every other_ item, starting from the second item, on Mike's grocery list.\n",
+    "\n",
+    "5. Add `flour` to the grocery list.\n",
+    "\n",
+    "6. Change `apples` to `gala apples`. (Mike decides to be more specific with the types of apples needed.)\n",
+    "\n",
+    "7. Determine the total number of items on the grocery list.\n",
+    "\n",
+    "## Challenge\n",
+    "\n",
+    "Mike arrives at the supermarket and walks through the aisles to gather the items on the list. Help him with the following tasks.\n",
+    "\n",
+    "* Mike wants to find where `gala apples` is on his list. Find the index of `gala apples`.\n",
+    "\n",
+    "* Mike remembers that he already has sugar. Remove `sugar` from the grocery list.\n",
+    "\n",
+    "* Mike decides that he has water at home. Remove `water` from the grocery list based on its index.\n",
+    "\n",
+    "* Mike decides to pick up the last item on his list, so remove the last item from the grocery list.\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "cb3bf3ad-86eb-49ac-b66d-47c77f010dde",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['water', 'butter']"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "grocery = [\"water\" , \"butter\" , \"eggs\" , \"apples\" , \"cinnamon\" , \"sugar\" , \"milk\"]\n",
+    "grocery[0:2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "92ae8d39-12ae-4721-9865-f1ba03aaf814",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['eggs', 'apples', 'cinnamon', 'sugar', 'milk']"
+      ]
+     },
+     "execution_count": 25,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "grocery[2:7]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "5b62d0ad-bde8-4d65-8fea-f81410b0b423",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "7\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(len(grocery))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "c6e7e2fa-9a7d-4ac1-a378-b1bed0ff975a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['water', 'butter', 'eggs', 'apples', 'cinnamon', 'sugar', 'milk']"
+      ]
+     },
+     "execution_count": 27,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "grocery"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "b371b9ee-aa1f-4728-ac75-0bb3bbec04b5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['water', 'butter', 'eggs', 'gala apples', 'cinnamon', 'sugar', 'milk']\n"
+     ]
+    }
+   ],
+   "source": [
+    "grocery[3] = \"gala apples\"\n",
+    "print(grocery)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "deddd748-93e9-47fc-afac-8300b9bf0aaf",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['water', 'butter', 'eggs', 'gala apples', 'cinnamon', 'sugar', 'milk']"
+      ]
+     },
+     "execution_count": 29,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "grocery"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "1e49ba54-f1f0-448b-9a2e-02c0b8f59615",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['butter', 'gala apples', 'sugar']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(grocery[1::2])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "fa6e4cbd-c94f-4e04-bc34-9c9e9ea59088",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['water', 'butter', 'eggs', 'gala apples', 'cinnamon', 'sugar', 'milk', 'flour']\n"
+     ]
+    }
+   ],
+   "source": [
+    "grocery.append(\"flour\")\n",
+    "print(grocery)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e48dd418-1207-4858-a94d-7e0e37e49a89",
+   "metadata": {},
+   "source": [
+    "# Trading Log\n",
+    "\n",
+    "In this activity, you will use lists to create a trading log that tracks profits and losses for each market day of the month. You will iterate over the list to calculate the highest and lowest profit and loss days. The goal of this activity is to use for loops and lists in order to track metrics related to trading performance.\n",
+    "\n",
+    "## Background\n",
+    "\n",
+    "Karen, an equity trader, has been tracking her profits and losses over the course of the last 20 business days. She wants to quickly analyze her ongoing performance as she continues to log her profits and losses every day. Understanding her profits and losses each day will allow Karen to evaluate her performance for all trades monthly, weekly, and over time. Help Karen create a program to analyze her results.\n",
+    "\n",
+    "## Instructions\n",
+    "\n",
+    "Using the [starter file](Unsolved/trading_log.py), complete the following:\n",
+    "\n",
+    "* Create a for loop over the `trading_pnl` list object, and cumulatively sum up the `total` profits/losses and the `count` of actual trading days.\n",
+    "\n",
+    "* Use an if-else statement to calculate the `maximum` and `minimum` profit/loss values. In other words, find the numerical value of the best and worst trading days.\n",
+    "\n",
+    "* Create additional lists `profitable_days` and `unprofitable_days` and use if-else statements to group daily trading values into each corresponding list.\n",
+    "\n",
+    "* Determine the following:\n",
+    "\n",
+    "  * Number of total trading days - 20\n",
+    "\n",
+    "  * Total profits and losses\n",
+    "\n",
+    "  * Daily average profit and loss\n",
+    "\n",
+    "  * Worst loss\n",
+    "\n",
+    "  * Best gain\n",
+    "\n",
+    "  * Number of profitable days\n",
+    "\n",
+    "  * Number of unprofitable days\n",
+    "\n",
+    "  * Percentage of profitable days\n",
+    "\n",
+    "  * Percentage of unprofitable days\n",
+    "\n",
+    "  * Print the values of only profitable days.\n",
+    "\n",
+    "  * Print the values of only unprofitable days.\n",
+    "\n",
+    "## Hints\n",
+    "\n",
+    "Use the below formulas:\n",
+    "\n",
+    "* Number of total trading days = length of `trading_pnl`\n",
+    "\n",
+    "* Profit = `trading_pnl` value is greater than 0\n",
+    "\n",
+    "* Loss = `trading_pnl` value is less than 0\n",
+    "\n",
+    "* Total profits/losses = sum of `trading_pnl`\n",
+    "\n",
+    "* Daily average profit/loss = total profits/losses divided by number of total trading days\n",
+    "\n",
+    "* Worst loss = smallest number in `unprofitable_days`\n",
+    "\n",
+    "* Best gain = largest number in `profitable_days`\n",
+    "\n",
+    "* Percentage of profitable days = number of profitable days divided by number of total trading days, multiplied by 100\n",
+    "\n",
+    "Your results should look similar to the following:\n",
+    "\n",
+    "```\n",
+    "---------Summary Statistics----------\n",
+    "Number of Total Days: 20\n",
+    "Number of Profitable Days: 13\n",
+    "Number of Unprofitable Days: 7\n",
+    "Percentage of Profitable Days: 65.0%\n",
+    "Percentage of Unprofitable Days: 35.0%\n",
+    "-------------------------------------\n",
+    "Profitable Days: [352, 252, 354, 56, 123, 254, 325, 47, 321, 123, 133, 613, 232]\n",
+    "Unprofitable Days: [-224, -544, -650, -43, -123, -151, -311]\n",
+    "-------------------------------------\n",
+    "Total Profits/Losses: 1139\n",
+    "Daily Average: 56.95\n",
+    "Worst Loss: -650\n",
+    "Best Gain: 613\n",
+    "```\n",
+    "\n",
+    "Refer to this [article](https://www.investopedia.com/terms/p/plstatement.asp) for more information regarding profit and loss statements.\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "eef92b85-7a69-474f-830b-d0f43ab204e4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "20\n"
+     ]
+    }
+   ],
+   "source": [
+    "trading_pnl = [ -224,  352, 252, 354, -544,\n",
+    "                -650,   56, 123, -43,  254,\n",
+    "                 325, -123,  47, 321,  123,\n",
+    "                 133, -151, 613, 232, -311 ]\n",
+    "\n",
+    "print(len(trading_pnl))\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "14461f43-e469-44ef-a325-c20703022da4",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (951298656.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  File \u001b[0;32m\"/var/folders/qk/ky5l2lgx5yd_09d2j843f0rh0000gn/T/ipykernel_91806/951298656.py\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    Profit = (trading_pnl \">\" 0)\u001b[0m\n\u001b[0m                            ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "Profit = (trading_pnl \">\" 0)\n",
+    "Loss = trading_pnl < 0\n",
+    "Total = Profit/loss\n",
+    "\n",
+    "print(Profit)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "6a70d77a-fa2a-4bf0-8b53-3a9370fab559",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[352,\n",
+       " 252,\n",
+       " 354,\n",
+       " -544,\n",
+       " -650,\n",
+       " 56,\n",
+       " 123,\n",
+       " -43,\n",
+       " 254,\n",
+       " 325,\n",
+       " -123,\n",
+       " 47,\n",
+       " 321,\n",
+       " 123,\n",
+       " 133,\n",
+       " -151,\n",
+       " 613,\n",
+       " 232,\n",
+       " -311]"
+      ]
+     },
+     "execution_count": 41,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "trading_pnl[1:20]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "415521f6-ebe0-4494-9a75-9b801ae0a6e4",
+   "metadata": {},
+   "source": [
+    "# Market Capitalization\n",
+    "\n",
+    "In this activity, you will create a dictionary, and then update, remove, and extract values in/from the dictionary.\n",
+    "\n",
+    "## Background\n",
+    "\n",
+    "Sam wants to categorize banks by their market capitalizations, which is the total dollar market value of a company's outstanding shares. Because she wants to know the relationship between a certain bank and its market capitalization, Sam uses a dictionary to index bank names to the value of its market cap.\n",
+    "\n",
+    "Sam needs to make a few changes to her dictionary of bank market caps because she noticed a few errors and omissions. Help Sam fix her dictionary of bank market caps, and even better, help her group the banks by their corresponding market capitalization tier.\n",
+    "\n",
+    "## Instructions\n",
+    "\n",
+    "Using the [starter file](Unsolved/Core/market_cap_core.py), complete the following:\n",
+    "\n",
+    "- Initialize the dictionary of `banks`. Add the following key-value pairs:\n",
+    "\n",
+    "  - JP Morgan Chase: 327\n",
+    "  - Bank of America: 302\n",
+    "  - Citigroup: 173\n",
+    "  - Wells Fargo: 273\n",
+    "  - Goldman Sachs: 87\n",
+    "  - Morgan Stanley: 72\n",
+    "  - U.S. Bancorp: 83\n",
+    "  - TD Bank: 108\n",
+    "  - PNC Financial Services: 67\n",
+    "  - Capital One: 47\n",
+    "  - FNB Corporation: 4\n",
+    "  - First Hawaiian Bank: 3\n",
+    "  - Ally Financial: 12\n",
+    "  - Wachovia: 145\n",
+    "  - Republic Bancorp: .97\n",
+    "\n",
+    "- Change the market cap for `Citigroup` to `170`.\n",
+    "\n",
+    "- Add a new bank `American Express` to the dictionary and set the market cap to `33`.\n",
+    "\n",
+    "- Delete `Wachovia` from the dictionary, as it is a deprecated bank acquired by Wells Fargo in 2008.\n",
+    "\n",
+    "## Challenge\n",
+    "\n",
+    "Group banks by their corresponding market capitalization tier.\n",
+    "\n",
+    "- Iterate over the key-value pairs in the `banks` dictionary and calculate the following:\n",
+    "\n",
+    "  - Total market capitalization\n",
+    "  - Total number of banks\n",
+    "  - Average market capitalization\n",
+    "  - Largest bank\n",
+    "  - Smallest bank\n",
+    "\n",
+    "- Use an if-else statement and lists to compare and group banks by their corresponding market capitalization: `mega-cap`, `large-cap`, `mid-cap`, and `small-cap`.\n",
+    "\n",
+    "  - `mega-cap`: Market capitalization greater than or equal to \\$300 billion.\n",
+    "\n",
+    "  - `large-cap`: Market capitalization greater than or equal to $10 billion and less than $300 billion.\n",
+    "\n",
+    "  - `mid-cap`: Market capitalization greater than or equal to $2 and less than $10 billion.\n",
+    "\n",
+    "  - `small-cap`: Market capitalization greater than or equal to $300 million and less than $2 billion.\n",
+    "\n",
+    "## Hint\n",
+    "\n",
+    "Your results should look similar to the following:\n",
+    "\n",
+    "```\n",
+    "Total Market Capitalization: 1588\n",
+    "Total Numer of Banks: 15\n",
+    "Average Market Capitalization: 105.87\n",
+    "Largest Bank: JP Morgan Chase\n",
+    "Smallest Bank: Republic Bancorp\n",
+    "------------------------------------------------\n",
+    "Mega Cap Banks: ['JP Morgan Chase', 'Bank of America']\n",
+    "Large Cap Banks: ['Citigroup', 'Wells Fargo', 'Goldman Sachs', 'Morgan Stanley', 'U.S. Bancorp', 'TD Bank', 'PNC Financial Services', 'Capital One', 'Ally Financial', 'American Express']\n",
+    "Mid Cap Banks: ['FNB Corporation', 'First Hawaiian Bank']\n",
+    "Small Cap Banks: ['Republic Bancorp']\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "© 2019 Trilogy Education Services\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "id": "37c953d9-f21c-4abc-813c-40938c9e7974",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['bank:market', 'JP Morgan Chase: 327', 'Bank of America: 302']\n"
+     ]
+    }
+   ],
+   "source": [
+    "banks = [\"bank:market\", \"JP Morgan Chase: 327\" , \"Bank of America: 302\"]\n",
+    "print(banks)\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 53,
+   "id": "57203fee-2d4a-428a-bb57-257305b1075e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'JP Morgan Chase': 327,\n",
+       " 'Bank of America': 302,\n",
+       " 'Citigroup': 173,\n",
+       " 'Wells Fargo': 273,\n",
+       " 'Goldman Sachs': 87,\n",
+       " 'Morgan Stanley': 72,\n",
+       " 'U.S. Bancorp': 83,\n",
+       " 'TD Bank': 108,\n",
+       " 'PNC Financial Services': 67,\n",
+       " 'Capital One': 47,\n",
+       " 'FNB Corporation': 4}"
+      ]
+     },
+     "execution_count": 53,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "banks = {\"JP Morgan Chase\" : 327,\"Bank of America\" : 302,\"Citigroup\" : 173,\"Wells Fargo\" : 273,\"Goldman Sachs\" : 87,\"Morgan Stanley\" : 72,\"U.S. Bancorp\" : 83,\"TD Bank\" : 108,\"PNC Financial Services\" : 67,\"Capital One\" : 47,\"FNB Corporation\" : 4}\n",
+    "banks"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "be11205e-93b8-4bf6-b756-2d516e458d9e",
+   "metadata": {},
+   "source": [
+    "# Weekly Gains\n",
+    "\n",
+    "In this activity, you will work with nested data structures by storing daily stock data in a list, and then storing that list in a dictionary. You will then retrieve stock data from the dictionary for specific days.\n",
+    "\n",
+    "## Background\n",
+    "\n",
+    "The stock markets have been closed since 4:00 p.m., and now it's almost 5:00 p.m. on Friday. As his job entails, Harold needs to close out another week of gathering stock data in order to calculate a report of the weekly gains of his list of stocks.\n",
+    "\n",
+    "Harold usually performs this task by manually looking up the stock price records for the new day, adding them to his weekly list of stocks, and then running his calculations. However, he now wonders if there is a quicker way to do all of this so that he can go home earlier on Fridays.\n",
+    "\n",
+    "Help Harold by creating a program to automate his data gathering process and weekly gains calculations.\n",
+    "\n",
+    "## Instructions\n",
+    "\n",
+    "Using the [starter file](Unsolved/Core/weekly_gains_core.py), complete the following:\n",
+    "\n",
+    "* Use the `new_records` dictionary to add each new stock ticker record to the corresponding list of records in the `historical_stock_data` dictionary. Appended stock ticker records should be in the following format: `[date, open, high, low, close]`. You have two options for how you do this:\n",
+    "\n",
+    "  * Create a list object for each new stock ticker record in the `new_records` dictionary in the above sequence. Manually append each list to the corresponding list of stock ticker records in the `historical_stock_data` dictionary.\n",
+    "\n",
+    "  * Loop through the `new_records` dictionary and append a new stock ticker record to each corresponding ticker in the `historical_stock_data` dictionary.\n",
+    "\n",
+    "* Print out the modified `historical_stock_data` dictionary.\n",
+    "\n",
+    "  ```python\n",
+    "  # Print out the modified 'historical_stock_data' dictionary\n",
+    "  print(historical_stock_data)\n",
+    "  ```\n",
+    "\n",
+    "  ```\n",
+    "  {'AAPL': [['04-17-2019', 199.54, 203.38, 198.61, 203.13], ['04-18-2019', 199.46, 201.37, 198.56, 199.25], ['04-19-2019', 198.58, 199.85, 198.01, 199.23], ['04-20-2019', 199.2, 200.14, 196.21, 198.87], [['04-21-2019', 200.85, 201.0, 198.44, 198.95]], ['04-21-2019', 200.85, 201.0, 198.44, 198.95]], 'MU': [['04-17-2019', 43.2, 43.53, 42.79, 43.4], ['04-18-2019', 43.36, 44.05, 42.76, 43.15], ['04-19-2019', 42.26, 42.93, 42.08, 42.76], ['04-20-2019', 42.17, 42.23, 41.2, 41.82], [['04-21-2019', 42.85, 43.2, 41.81, 42.01]], ['04-21-2019', 42.85, 43.2, 41.81, 42.01]], 'AMD': [['04-17-2019', 27.6, 27.88, 27.34, 27.68], ['04-18-2019', 28.21, 28.27, 27.22, 27.49], ['04-19-2019', 27.72, 28.18, 27.49, 27.93], ['04-20-2019', 27.8, 27.84, 26.96, 27.33], [['04-21-2019', 28.21, 28.38, 27.66, 27.85]], ['04-21-2019', 28.21, 28.38, 27.66, 27.85]], 'TWTR': [['04-17-2019', 34.67, 34.86, 34.32, 34.4], ['04-18-2019', 34.73, 34.9, 34.2, 34.48], ['04-19-2019', 34.84, 34.99, 34.23, 34.46], ['04-20-2019', 34.38, 35.03, 34.34, 34.71], [['04-21-2019', 34.67, 34.83, 34.11, 34.37]], ['04-21-2019', 34.67, 34.83, 34.11, 34.37]]}\n",
+    "  ```\n",
+    "\n",
+    "## Challenge\n",
+    "\n",
+    "Calculate the weekly gains for each stock ticker and assign to a `results` dictionary for each stock ticker.\n",
+    "\n",
+    "* Loop through every key-value pair in the `historical_stock_data` dictionary.\n",
+    "\n",
+    "* Set the last and first record closing prices: `ending_weekly_close` and `beginning_weekly_close`.\n",
+    "\n",
+    "* Calculate the `ticker_weekly_close = ending_week_close - beginning_week_close) / beginning_week_close * 100`. Round to the nearest two decimal places.\n",
+    "\n",
+    "* Set the `ticker_weekly_close` to the corresponding ticker in the `results` dictionary.\n",
+    "\n",
+    "## Hint\n",
+    "\n",
+    "Your results should look similar to the following:\n",
+    "\n",
+    "```\n",
+    "{'AAPL': -2.06, 'MU': -3.2, 'AMD': 0.61, 'TWTR': -0.09}\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "© 2019 Trilogy Education Services\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "id": "9f4fde97-6f90-4e29-9f02-afb393dad67c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "historical_stock_data = {'AAPL': [['04-17-2019', 199.54, 203.38, 198.61, 203.13], ['04-18-2019', 199.46, 201.37, 198.56, 199.25], ['04-19-2019', 198.58, 199.85, 198.01, 199.23], ['04-20-2019', 199.2, 200.14, 196.21, 198.87], [['04-21-2019', 200.85, 201.0, 198.44, 198.95]], ['04-21-2019', 200.85, 201.0, 198.44, 198.95]], 'MU': [['04-17-2019', 43.2, 43.53, 42.79, 43.4], ['04-18-2019', 43.36, 44.05, 42.76, 43.15], ['04-19-2019', 42.26, 42.93, 42.08, 42.76], ['04-20-2019', 42.17, 42.23, 41.2, 41.82], [['04-21-2019', 42.85, 43.2, 41.81, 42.01]], ['04-21-2019', 42.85, 43.2, 41.81, 42.01]], 'AMD': [['04-17-2019', 27.6, 27.88, 27.34, 27.68], ['04-18-2019', 28.21, 28.27, 27.22, 27.49], ['04-19-2019', 27.72, 28.18, 27.49, 27.93], ['04-20-2019', 27.8, 27.84, 26.96, 27.33], [['04-21-2019', 28.21, 28.38, 27.66, 27.85]], ['04-21-2019', 28.21, 28.38, 27.66, 27.85]], 'TWTR': [['04-17-2019', 34.67, 34.86, 34.32, 34.4], ['04-18-2019', 34.73, 34.9, 34.2, 34.48], ['04-19-2019', 34.84, 34.99, 34.23, 34.46], ['04-20-2019', 34.38, 35.03, 34.34, 34.71], [['04-21-2019', 34.67, 34.83, 34.11, 34.37]], ['04-21-2019', 34.67, 34.83, 34.11, 34.37]]}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "id": "0628ddb2-efcd-4929-b7ee-2b5c31b08214",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'AAPL': [['04-17-2019', 199.54, 203.38, 198.61, 203.13],\n",
+       "  ['04-18-2019', 199.46, 201.37, 198.56, 199.25],\n",
+       "  ['04-19-2019', 198.58, 199.85, 198.01, 199.23],\n",
+       "  ['04-20-2019', 199.2, 200.14, 196.21, 198.87],\n",
+       "  [['04-21-2019', 200.85, 201.0, 198.44, 198.95]],\n",
+       "  ['04-21-2019', 200.85, 201.0, 198.44, 198.95]],\n",
+       " 'MU': [['04-17-2019', 43.2, 43.53, 42.79, 43.4],\n",
+       "  ['04-18-2019', 43.36, 44.05, 42.76, 43.15],\n",
+       "  ['04-19-2019', 42.26, 42.93, 42.08, 42.76],\n",
+       "  ['04-20-2019', 42.17, 42.23, 41.2, 41.82],\n",
+       "  [['04-21-2019', 42.85, 43.2, 41.81, 42.01]],\n",
+       "  ['04-21-2019', 42.85, 43.2, 41.81, 42.01]],\n",
+       " 'AMD': [['04-17-2019', 27.6, 27.88, 27.34, 27.68],\n",
+       "  ['04-18-2019', 28.21, 28.27, 27.22, 27.49],\n",
+       "  ['04-19-2019', 27.72, 28.18, 27.49, 27.93],\n",
+       "  ['04-20-2019', 27.8, 27.84, 26.96, 27.33],\n",
+       "  [['04-21-2019', 28.21, 28.38, 27.66, 27.85]],\n",
+       "  ['04-21-2019', 28.21, 28.38, 27.66, 27.85]],\n",
+       " 'TWTR': [['04-17-2019', 34.67, 34.86, 34.32, 34.4],\n",
+       "  ['04-18-2019', 34.73, 34.9, 34.2, 34.48],\n",
+       "  ['04-19-2019', 34.84, 34.99, 34.23, 34.46],\n",
+       "  ['04-20-2019', 34.38, 35.03, 34.34, 34.71],\n",
+       "  [['04-21-2019', 34.67, 34.83, 34.11, 34.37]],\n",
+       "  ['04-21-2019', 34.67, 34.83, 34.11, 34.37]]}"
+      ]
+     },
+     "execution_count": 55,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "historical_stock_data"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "id": "04b0b365-6295-4192-8f4b-9970f69a1214",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{'AAPL': [['04-17-2019', 199.54, 203.38, 198.61, 203.13], ['04-18-2019', 199.46, 201.37, 198.56, 199.25], ['04-19-2019', 198.58, 199.85, 198.01, 199.23], ['04-20-2019', 199.2, 200.14, 196.21, 198.87], [['04-21-2019', 200.85, 201.0, 198.44, 198.95]], ['04-21-2019', 200.85, 201.0, 198.44, 198.95]], 'MU': [['04-17-2019', 43.2, 43.53, 42.79, 43.4], ['04-18-2019', 43.36, 44.05, 42.76, 43.15], ['04-19-2019', 42.26, 42.93, 42.08, 42.76], ['04-20-2019', 42.17, 42.23, 41.2, 41.82], [['04-21-2019', 42.85, 43.2, 41.81, 42.01]], ['04-21-2019', 42.85, 43.2, 41.81, 42.01]], 'AMD': [['04-17-2019', 27.6, 27.88, 27.34, 27.68], ['04-18-2019', 28.21, 28.27, 27.22, 27.49], ['04-19-2019', 27.72, 28.18, 27.49, 27.93], ['04-20-2019', 27.8, 27.84, 26.96, 27.33], [['04-21-2019', 28.21, 28.38, 27.66, 27.85]], ['04-21-2019', 28.21, 28.38, 27.66, 27.85]], 'TWTR': [['04-17-2019', 34.67, 34.86, 34.32, 34.4], ['04-18-2019', 34.73, 34.9, 34.2, 34.48], ['04-19-2019', 34.84, 34.99, 34.23, 34.46], ['04-20-2019', 34.38, 35.03, 34.34, 34.71], [['04-21-2019', 34.67, 34.83, 34.11, 34.37]], ['04-21-2019', 34.67, 34.83, 34.11, 34.37]]}\n"
+     ]
+    }
+   ],
+   "source": [
+    "new_record = {\n",
+    "    'AAPL': [['04-17-2019', 199.54, 203.38, 198.61, 203.13],\n",
+    "  ['04-18-2019', 199.46, 201.37, 198.56, 199.25],\n",
+    "  ['04-19-2019', 198.58, 199.85, 198.01, 199.23],\n",
+    "  ['04-20-2019', 199.2, 200.14, 196.21, 198.87],\n",
+    "  [['04-21-2019', 200.85, 201.0, 198.44, 198.95]],\n",
+    "  ['04-21-2019', 200.85, 201.0, 198.44, 198.95]],\n",
+    "    'MU': [['04-17-2019', 43.2, 43.53, 42.79, 43.4],\n",
+    "  ['04-18-2019', 43.36, 44.05, 42.76, 43.15],\n",
+    "  ['04-19-2019', 42.26, 42.93, 42.08, 42.76],\n",
+    "  ['04-20-2019', 42.17, 42.23, 41.2, 41.82],\n",
+    "  [['04-21-2019', 42.85, 43.2, 41.81, 42.01]],\n",
+    "  ['04-21-2019', 42.85, 43.2, 41.81, 42.01]],\n",
+    "    'AMD': [['04-17-2019', 27.6, 27.88, 27.34, 27.68],\n",
+    "  ['04-18-2019', 28.21, 28.27, 27.22, 27.49],\n",
+    "  ['04-19-2019', 27.72, 28.18, 27.49, 27.93],\n",
+    "  ['04-20-2019', 27.8, 27.84, 26.96, 27.33],\n",
+    "  [['04-21-2019', 28.21, 28.38, 27.66, 27.85]],\n",
+    "  ['04-21-2019', 28.21, 28.38, 27.66, 27.85]],\n",
+    "    'TWTR': [['04-17-2019', 34.67, 34.86, 34.32, 34.4],\n",
+    "  ['04-18-2019', 34.73, 34.9, 34.2, 34.48],\n",
+    "  ['04-19-2019', 34.84, 34.99, 34.23, 34.46],\n",
+    "  ['04-20-2019', 34.38, 35.03, 34.34, 34.71],\n",
+    "  [['04-21-2019', 34.67, 34.83, 34.11, 34.37]],\n",
+    "  ['04-21-2019', 34.67, 34.83, 34.11, 34.37]]}\n",
+    "    \n",
+    "\n",
+    "print(new_record)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2a148cce-b33e-4639-a7f6-893e07b65453",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.13"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

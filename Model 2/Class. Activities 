@@ -1,0 +1,1082 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "c550e690-cd16-4234-9384-0d1c864c1473",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello world\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"hello world\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "ae9dc84d-4b26-4d01-b8b2-2e8b4a8abcf1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "50.0"
+      ]
+     },
+     "execution_count": 3,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "total_miles = 200\n",
+    "gallons = 4\n",
+    "miles_per_gallon = total_miles/gallons\n",
+    "miles_per_gallon"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "7ed53142-0660-4061-a1f6-672dc9bf5434",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "50.0"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "miles_per_gallon"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "3b3c1123-dc7a-4ce1-ae78-c30e5e6f363f",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "EOL while scanning string literal (3097356449.py, line 2)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  File \u001b[0;32m\"/var/folders/qk/ky5l2lgx5yd_09d2j843f0rh0000gn/T/ipykernel_89210/3097356449.py\"\u001b[0;36m, line \u001b[0;32m2\u001b[0m\n\u001b[0;31m    print(f\"The total km driven was : {kilometers})\u001b[0m\n\u001b[0m                                                   ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m EOL while scanning string literal\n"
+     ]
+    }
+   ],
+   "source": [
+    "kilometers =50\n",
+    "print(f\"The total km driven was : {kilometers})"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "4fdf7155-ebe1-4175-bf63-14f41bc871f7",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (511588056.py, line 6)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  File \u001b[0;32m\"/var/folders/qk/ky5l2lgx5yd_09d2j843f0rh0000gn/T/ipykernel_89210/511588056.py\"\u001b[0;36m, line \u001b[0;32m6\u001b[0m\n\u001b[0;31m    percent_increase = increase / original_price x 100\u001b[0m\n\u001b[0m                                                 ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "\n",
+    "original_price = 198.87\n",
+    "current_price = 254.32\n",
+    "\n",
+    "increase = current_price - original_price\n",
+    "\n",
+    "percent_increase = increase / original_price x 100\n",
+    "\n",
+    "print(f\"Apple's original stock price was ${original_price}\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4d4d8d4e-0a62-41ab-9276-efc113e35142",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "9cf2fecb-6cda-4b7f-86bc-b1501916c77e",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (502962096.py, line 7)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  File \u001b[0;32m\"/var/folders/qk/ky5l2lgx5yd_09d2j843f0rh0000gn/T/ipykernel_89210/502962096.py\"\u001b[0;36m, line \u001b[0;32m7\u001b[0m\n\u001b[0;31m    else:\u001b[0m\n\u001b[0m       ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "driverless_car = True\n",
+    "\n",
+    "if driverless_car == True:\n",
+    "    print(\"oh no! driver's asleep\")\n",
+    "    print()\n",
+    "    print(\"all is good. auto-pilot activated\"\n",
+    "else:\n",
+    "    print(\"oh no! Mayday!\")\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9dfb658f-15bc-4a84-9303-337c6cb1907f",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "3694e45e-e2a3-402f-95b8-b7e59e4619f3",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (4141815185.py, line 4)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  File \u001b[0;32m\"/var/folders/qk/ky5l2lgx5yd_09d2j843f0rh0000gn/T/ipykernel_89210/4141815185.py\"\u001b[0;36m, line \u001b[0;32m4\u001b[0m\n\u001b[0;31m    elite _status = True\u001b[0m\n\u001b[0m                ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "acciedent = True\n",
+    "at_fault = False\n",
+    "accidental_forgiveness = True\n",
+    "elite _status = True\n",
+    "\n",
+    "increase_insriance_premium = True\n",
+    "\n",
+    "print(\"should the insurance premium be increased?\")\n",
+    "\n",
+    "if accident:\n",
+    "    if at_fault and accident_forgiveness:\n",
+    "        increase_insruance_premium= False\n",
+    "        \n",
+    "        elif at_fault and not accident_forgiveness and not elite_status:\n",
+    "            increase_insurance_premium = True\n",
+    "        else:\n",
+    "            increase_insurance_premium = False\n",
+    "elif not accident and elite_status:\n",
+    "    increase_insurance_premium = False\n",
+    "else:\n",
+    "    increase_insurance_premium = True"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "33c06750-8f5e-4d19-99e2-d1bc4d45d5fc",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Oooo needs some work\n"
+     ]
+    }
+   ],
+   "source": [
+    "x = 5\n",
+    "y = 10\n",
+    "if 2 * x > 10:\n",
+    "    print(\"Question 1 works!\")\n",
+    "else:\n",
+    "    print(\"Oooo needs some work\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "e6e4fd2b-695b-4480-800e-8715610c2a9f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Oooo needs some work\n"
+     ]
+    }
+   ],
+   "source": [
+    "x = 5\n",
+    "y = 10\n",
+    "if 2 * x > 10:\n",
+    "    print(\"Question 1 works!\")\n",
+    "else:\n",
+    "    print(\"Oooo needs some work\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "5b7e2f73-5742-48bc-847a-116a259c9e59",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Question 2 works!\n"
+     ]
+    }
+   ],
+   "source": [
+    "x = 5\n",
+    "y = 10\n",
+    "if len(\"Dog\") < x:\n",
+    "    print(\"Question 2 works!\")\n",
+    "else:\n",
+    "    print(\"Still missing out\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "25f83cf1-6321-4cf1-a057-c2b189f0834a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "You are of drinking age!\n"
+     ]
+    }
+   ],
+   "source": [
+    "age = 21\n",
+    "if age > 20:\n",
+    "    print(\"You are of drinking age!\")\n",
+    "else:\n",
+    "    print(\"Argggggh! You think you can hoodwink me, matey?! You're too young to drink!\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "05b42435-8408-4e43-bb59-a548c5d04dcf",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "GOT QUESTION 4!\n"
+     ]
+    }
+   ],
+   "source": [
+    "x = 2\n",
+    "y = 5\n",
+    "if (x ** 3 >= y) and (y ** 2 < 26):\n",
+    "    print(\"GOT QUESTION 4!\")\n",
+    "else:\n",
+    "    print(\"Oh good you can count\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "6c1e7fe7-533a-42f4-ac8a-8e8cb522eef8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Can ride bumper cars\n"
+     ]
+    }
+   ],
+   "source": [
+    "height = 66\n",
+    "age = 16\n",
+    "adult_permission = True\n",
+    "\n",
+    "if (height > 70) and (age >= 18):\n",
+    "    print(\"Can ride all the roller coasters\")\n",
+    "elif (height > 65) and (age >= 18):\n",
+    "    print(\"Can ride moderate roller coasters\")\n",
+    "elif (height > 60) and (age >= 18):\n",
+    "    print(\"Can ride light roller coasters\")\n",
+    "elif ((height > 50) and (age >= 18)) or ((adult_permission) and (height > 50)):\n",
+    "    print(\"Can ride bumper cars\")\n",
+    "else:\n",
+    "    print(\"Stick to lazy river\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "5efd88b6-3212-4721-ace9-fbac0c405e12",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "h\n",
+      "e\n",
+      "l\n",
+      "l\n",
+      "o\n",
+      " \n",
+      "w\n",
+      "o\n",
+      "r\n",
+      "l\n",
+      "d\n"
+     ]
+    }
+   ],
+   "source": [
+    "phrase = \"hello world\"\n",
+    "\n",
+    "for x in phrase:\n",
+    "    print(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "4852d6fb-5906-47b2-be75-d2506fa1bcde",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0\n",
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n"
+     ]
+    }
+   ],
+   "source": [
+    "desired_number = 5\n",
+    "for x in range (10):\n",
+    "    if(x == desired_number):\n",
+    "        break\n",
+    "    print(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "1deb6288-bd56-4357-95fe-582fa4a99b82",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      " \n",
+      "C\n",
+      "h\n",
+      "e\n",
+      "e\n",
+      "r\n"
+     ]
+    }
+   ],
+   "source": [
+    "phrase = \" Cheer\"\n",
+    "for x in phrase:\n",
+    "    print(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "a0195f80-baef-4f55-a161-e84c74480779",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "give me a p!\n",
+      "give me a y!\n",
+      "give me a t!\n",
+      "give me a h!\n",
+      "give me a o!\n",
+      "give me a n!\n",
+      "\n",
+      "What does that spell?!\n",
+      "python!\n",
+      "Woohoo! Go python!\n"
+     ]
+    }
+   ],
+   "source": [
+    "  \n",
+    "cheer = \"python\"\n",
+    "\n",
+    "cheer_symbol = \"*\\O/*\"\n",
+    "\n",
+    "\n",
+    "for x in cheer:\n",
+    "    print(\"give me a \" + x + \"!\")\n",
+    "print(\"\\nWhat does that spell?!\")\n",
+    "print(cheer + \"!\\nWoohoo! Go \" + cheer + \"!\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "f0b4df04-af3c-4c7a-8328-6a1900399d71",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "-67.02000000000004\n",
+      "-18.598584709310405\n"
+     ]
+    }
+   ],
+   "source": [
+    "\n",
+    "original_price = 360.35\n",
+    "current_price = 293.33\n",
+    "\n",
+    "increase = current_price - original_price\n",
+    "\n",
+    "percent_increase = increase / original_price * 100\n",
+    "\n",
+    "print(increase)\n",
+    "\n",
+    "\n",
+    "print(percent_increase)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2d90010b-e2a4-44a6-a5fb-7bdd7ef71153",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "original_price = 360.35\n",
+    "current_price = 293.33\n",
+    "increase = -67.02\n",
+    "percent_increase = -18.59858\n",
+    "\n",
+    "increase = current_price - original_price\n",
+    "\n",
+    "percent_increase = increase / original_price * 100\n",
+    "if percent_increase\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "689de351-d4a3-4418-a0fd-a7c1ca808596",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# time value\n",
+    "def calculate_future_value(pv, i, n, t):\n",
+    "    fv = pv + ((1 (i/n)) ** (n * t))\n",
+    "    fv_rounded = round(fv)\n",
+    "    return fv_rounded\n",
+    "\n",
+    "pv = 1000\n",
+    "i = .1\n",
+    "n = 1\n",
+    "t = 3\n",
+    "\n",
+    "future_value = calculate_future_value(pv, i, n, t)\n",
+    "print(\"the future value for present value {pv}, at interest of {i} compounding "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "fb280d40-4b96-43b5-a352-ac03a1eb45f1",
+   "metadata": {},
+   "source": [
+    "# Zero-Coupon Bonds\n",
+    "\n",
+    "In this activity, you will calculate the present value of a zero-coupon bond from its future value, and compare the resulting present value to its selling price in order to determine whether or not the bond is worth purchasing.\n",
+    "\n",
+    "## Background\n",
+    "\n",
+    "A zero-coupon bond is a debt security that does not pay interest (a coupon) as an annual cash flow; instead, it simply distributes a lump sum, or its face value, upon bond maturity (when the bond completes its duration). Zero-coupon bonds trade at a discount to their future value.\n",
+    "\n",
+    "## Instructions\n",
+    "\n",
+    "Using the [starter file](Unsolved/zero_coupon_bonds.py), walk through the following steps.\n",
+    "\n",
+    "* Recreate the `present_value` formula as a function in Python. Make sure the function has the following parameters:\n",
+    "\n",
+    "  * `future_value`: This is equivalent to the face value, or maturity value, of bonds; a lump sum given at the end of the duration of the bond.\n",
+    "\n",
+    "  * `discount_rate`: This is the rate of return over the duration of the bond.\n",
+    "\n",
+    "  * `compounding_periods`: Assumed to be equal to 1 for bonds.\n",
+    "\n",
+    "  * `years`: The number of years constituting the duration of the bond.\n",
+    "\n",
+    "* Pass the bond parameters into the `present_value` function and return the value to a variable `bond_value`.\n",
+    "\n",
+    "* Compare the `bond_value` to its `price` and determine if the bond is worth purchasing or not.\n",
+    "\n",
+    "  * If the bond is selling at a `discount`, purchase the bond.\n",
+    "\n",
+    "  * Else if the bond is selling at a `premium`, do not purchase the bond.\n",
+    "\n",
+    "  * Else the bond is selling at its fair market value, you're neutral to the decision.\n",
+    "\n",
+    "## Hint\n",
+    "\n",
+    "Don't overthink it! We are simply calculating the present value of a future value! If you need to refer to the present value formula, look to the slides.\n",
+    "\n",
+    "---\n",
+    "\n",
+    "© 2019 Trilogy Education Services\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "id": "60dedaca-f732-45d3-926e-1f0ade0e3c78",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (879737366.py, line 15)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  File \u001b[0;32m\"/var/folders/qk/ky5l2lgx5yd_09d2j843f0rh0000gn/T/ipykernel_89210/879737366.py\"\u001b[0;36m, line \u001b[0;32m15\u001b[0m\n\u001b[0;31m    if bond_value is > price:\u001b[0m\n\u001b[0m                     ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "pv = fv  / ((1 + (i/n)) ** (n * t))\n",
+    "\n",
+    "\n",
+    "price = 700\n",
+    "future_value = 1000\n",
+    "discount_rate = .1\n",
+    "compounding_periods = 1\n",
+    "years = 5\n",
+    "\n",
+    "def calculate_future_value(future_value , discount_rate, compounding_periods , years):\n",
+    "    fv = pv + ((1 (i/n)) ** (n * t))\n",
+    "    fv_rounded = round(fv)\n",
+    "    return fv_rounded\n",
+    "\n",
+    "if bond_value is > price:\n",
+    "    print(\"buy\")\n",
+    "elif\n",
+    "    \n",
+    "    print(fv)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "id": "4784f560-4285-4fc0-b78f-91c37e036c8d",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "IndentationError",
+     "evalue": "unindent does not match any outer indentation level (<tokenize>, line 14)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  File \u001b[0;32m\"<tokenize>\"\u001b[0;36m, line \u001b[0;32m14\u001b[0m\n\u001b[0;31m    bond_value = calculate_present_value(\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mIndentationError\u001b[0m\u001b[0;31m:\u001b[0m unindent does not match any outer indentation level\n"
+     ]
+    }
+   ],
+   "source": [
+    "price = 700\n",
+    "future_value = 1000\n",
+    "discount_rate = .1\n",
+    "compounding_periods = 1\n",
+    "years = 5\n",
+    "\n",
+    "\n",
+    "def calculate_present_value(future_value, discount_rate, compounding_periods, years):\n",
+    " present_value = future_value / (\n",
+    "        (1 + (discount_rate / compounding_periods)) ** (compounding_periods * years))\n",
+    "present_value_formatted = round(present_value, 2)\n",
+    "    \n",
+    "    return present_value_formatted\n",
+    " bond_value = calculate_present_value(\n",
+    "    future_value, discount_rate, compounding_periods, years)\n",
+    "\n",
+    "if bond_value > price:\n",
+    "    discount = round(bond_value - price, 2)\n",
+    "    print(f\"The bond is selling at a price of ${price} and is valued at ${bond_value}.\")\n",
+    "    print(f\"A discount of {discount} exists, therefore you want to buy the bond.\")\n",
+    "elif bond_value < price:\n",
+    "    premium = round(price - bond_value, 2)\n",
+    "    print(f\"The bond is selling at a price of ${price} and is valued at ${bond_value}.\")\n",
+    "    print(f\"A premium of {premium} exists, therefore you do not want to buy the bond.\")\n",
+    "else:\n",
+    "    print(f\"The bond is selling at a price of ${price} and is valued at ${bond_value}.\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "774a2efa-d830-41ec-8fcb-86f2a4f73999",
+   "metadata": {},
+   "source": [
+    "# Net Present Value\n",
+    "\n",
+    "In this activity, you will conduct financial analysis on three potential company projects that are categorized as conservative, neutral, and aggressive. Then, you will use the NPV function to determine which project scenario is the optimal choice.\n",
+    "\n",
+    "## Background\n",
+    "\n",
+    "NPV, or net present value, compares the initial investment of a project to the sum of all the present values of the subsequent projected cash flows. Positive NPV values indicate a project that is profitable and should be considered; negative NPV values indicate a project that is not profitable and should not be considered.\n",
+    "\n",
+    "In this activity, you will conduct financial analysis on three project scenarios: conservative, neutral, and aggressive. Each scenario requires an initial investment to generate the resulting cash flows for the following four years.\n",
+    "\n",
+    "You will use the NPV function from the NumPy Financial library to calculate the NPV values for each project scenario, and determine the scenario that has the highest NPV value, or the project that is the optimal choice.\n",
+    "\n",
+    "## Instructions\n",
+    "\n",
+    "Use the [starter file](Unsolved/Core/net_present_value_core.py) to complete the following steps.\n",
+    "\n",
+    "1. Import the NumPy Financial (`numpy_financial`) library. You may need to run `pip install numpy-financial` in your terminal in order to install this library.\n",
+    "\n",
+    "2. Call the NumPy Financial NPV function for each of the three project scenarios (conservative, neutral, aggressive).\n",
+    "\n",
+    "3. Assign the return values to a corresponding scenario key in a `npv_dict` dictionary.\n",
+    "\n",
+    "4. Print out the project scenario that holds the max NPV value from the `npv_dict` dictionary.\n",
+    "\n",
+    "Your results should look similar to the following:\n",
+    "\n",
+    "```\n",
+    "{'conservative': 267.94617853971704, 'neutral': 401.91926780957544, 'aggressive': 285.8923570794341}\n",
+    "The optimal project scenario to undertake is 'neutral' with a NPV of 401.91926780957544\n",
+    "```\n",
+    "\n",
+    "## Challenge\n",
+    "\n",
+    "Use a for loop and an if-else conditional to calculate the max NPV value and associated key from the `npv_dict` dictionary. This will eliminate the need to manually choose the project scenario that has the max NPV value.\n",
+    "\n",
+    "Your results should look similar to the following:\n",
+    "\n",
+    "```\n",
+    "conservative 267.94617853971704\n",
+    "neutral 401.91926780957544\n",
+    "aggressive 285.8923570794341"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9e9148ec-c22a-45b5-bd35-2cd258879b1d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "pv = fv  / ((1 + (i/n)) ** (n * t))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "id": "d42ea9cd-35c4-44ff-98ab-a55717ce7427",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'numpy_financial' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[0;32m/var/folders/qk/ky5l2lgx5yd_09d2j843f0rh0000gn/T/ipykernel_89210/703538301.py\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[1;32m      3\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      4\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 5\u001b[0;31m \u001b[0mnumpy_financial\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[0;31mNameError\u001b[0m: name 'numpy_financial' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "# Net present value\n",
+    "\n",
+    "import numpy\n",
+    "import numpy_financial as npf"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "id": "2c517ad0-a8ea-4145-a692-788af3b66308",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'nps' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[0;32m/var/folders/qk/ky5l2lgx5yd_09d2j843f0rh0000gn/T/ipykernel_89210/258273826.py\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[1;32m      7\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      8\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 9\u001b[0;31m \u001b[0mnet_present_value\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mnps\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mnpv\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0minterest_rate\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mcash_flows\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     10\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34mf\"NPV = ${net_present_value}\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     11\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;31mNameError\u001b[0m: name 'nps' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "cash_flows_conservative = [-1000, 400, 400, 400, 400]\n",
+    "cash_flows_neutral = [-1500, 600, 600, 600, 600]\n",
+    "cash_flows_aggressive = [-2250, 800, 800, 800, 800]\n",
+    "discount_rate = .1\n",
+    "\n",
+    "npv_dict = {}\n",
+    "\n",
+    "\n",
+    "net_present_value = nps.npv(interest_rate, cash_flows)\n",
+    "print(f\"NPV = ${net_present_value}\") \n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 68,
+   "id": "aeb6499a-2657-4b82-839d-7161e91b83e7",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "ModuleNotFoundError",
+     "evalue": "No module named 'numpy_financial'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mModuleNotFoundError\u001b[0m                       Traceback (most recent call last)",
+      "\u001b[0;32m/var/folders/qk/ky5l2lgx5yd_09d2j843f0rh0000gn/T/ipykernel_89210/3228093134.py\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0;32mimport\u001b[0m \u001b[0mnumpy_financial\u001b[0m \u001b[0;32mas\u001b[0m \u001b[0mnpf\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      2\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      3\u001b[0m \u001b[0mcash_flows_conservative\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m[\u001b[0m\u001b[0;34m-\u001b[0m\u001b[0;36m1000\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;36m400\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;36m400\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;36m400\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;36m400\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      4\u001b[0m \u001b[0mcash_flows_neutral\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m[\u001b[0m\u001b[0;34m-\u001b[0m\u001b[0;36m1500\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;36m600\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;36m600\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;36m600\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;36m600\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      5\u001b[0m \u001b[0mcash_flows_aggressive\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m[\u001b[0m\u001b[0;34m-\u001b[0m\u001b[0;36m2250\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;36m800\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;36m800\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;36m800\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;36m800\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;31mModuleNotFoundError\u001b[0m: No module named 'numpy_financial'"
+     ]
+    }
+   ],
+   "source": [
+    "import numpy_financial as npf\n",
+    "\n",
+    "cash_flows_conservative = [-1000, 400, 400, 400, 400]\n",
+    "cash_flows_neutral = [-1500, 600, 600, 600, 600]\n",
+    "cash_flows_aggressive = [-2250, 800, 800, 800, 800]\n",
+    "discount_rate = .1\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "npv_dict = {}\n",
+    "\n",
+    "npv_dict['conservative'] = {nps.npv(interest_rate, cash_flows_conservative)}\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 69,
+   "id": "9824641c-6eca-480d-9d65-d3a1cae33197",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'numpy_financial' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[0;32m/var/folders/qk/ky5l2lgx5yd_09d2j843f0rh0000gn/T/ipykernel_89210/2800628320.py\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0mnumpy_financial\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[0;31mNameError\u001b[0m: name 'numpy_financial' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "numpy_financial"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 71,
+   "id": "a219c7af-a944-4bf8-aab6-a870d17635ba",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "from pathlib import Path\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 72,
+   "id": "87b460d4-3e3e-4507-bd41-75eda19d8af3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'/Users/uli/Desktop/fintech.repo/Model 2'"
+      ]
+     },
+     "execution_count": 72,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "pwd\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 73,
+   "id": "83831e56-a720-4fff-a7d6-1e2162664a63",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "from pathlib import Path"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 74,
+   "id": "99c81c94-082c-4a43-b1cd-4931d7472605",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import pandas as pd"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a39b2d81-0bc7-4e00-8804-07267b5d800d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "d ={\"col1\": [\"one\", \"two\", \"three\", \"four\"],\n",
+    "    \"col2\": [1, 2, 3, 4]}\n",
+    "d_df = pd.dataframe(d)\n",
+    "d_df.to_csv(\"df\n",
+    "              "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5f638787-7a27-473a-8697-f90cdbfbc397",
+   "metadata": {},
+   "source": [
+    "# Sales Analysis\n",
+    "\n",
+    "In this activity, you will read in the `sales.csv` file to calculate customer revenue averages.\n",
+    "\n",
+    "## Instructions\n",
+    "\n",
+    "Using the [starter file](Unsolved/Core/sales_analysis_core.py), complete the following steps.\n",
+    "\n",
+    "1. Import the pathlib and CSV libraries.\n",
+    "\n",
+    "2. Set the `sales.csv` path.\n",
+    "\n",
+    "3. Initialize a `records` list.\n",
+    "\n",
+    "4. Read and iterate over the `sales.csv` file using `csv.reader()`.\n",
+    "\n",
+    "5. Append a new column, average, to the header, and then add the header to the list of records.\n",
+    "\n",
+    "6. Set the `name`, `count`, and `revenue` variables and convert strings to ints for numerical calculations.\n",
+    "\n",
+    "7. Calculate the simple average (`revenue` over `count`), append the average to the row, and append the row to the list of records.\n",
+    "\n",
+    "8. Write the list of records contained in `records` to an output CSV file.\n",
+    "\n",
+    "9. Loop over every record in `records`, and use the `writerow()` function to write to an output CSV file.\n",
+    "\n",
+    "Your output should look similar to the following:\n",
+    "\n",
+    "  ```python\n",
+    "  Name,Count,Revenue,Average\n",
+    "  Andrew,9,58,6.44\n",
+    "  Phil,8,377,47.12\n",
+    "  Madison,5,302,60.4\n",
+    "  Sally,1,75,75.0\n",
+    "  Tyler,1,334,334.0\n",
+    "  Billy,7,146,20.86\n",
+    "  Steve,1,178,178.0\n",
+    "  Madison,7,313,44.71\n",
+    "  Sarah,8,103,12.88\n",
+    "  Tim,5,344,68.8\n",
+    "  Andrew,5,349,69.8\n",
+    "  Phil,8,61,7.62\n",
+    "  Madison,4,196,49.0\n",
+    "  Carl,1,374,374.0\n",
+    "  Devon,9,220,24.44\n",
+    "  Megan,9,321,35.67\n",
+    "  Sarah,7,277,39.57\n",
+    "  David,2,246,123.0\n",
+    "  Sally,9,198,22.0\n",
+    "  Tom,5,221,44.2\n",
+    "  Andrew,1,191,191.0\n",
+    "  Paul,5,399,79.8\n",
+    "  Carl,1,300,300.0\n",
+    "  Tim,1,345,345.0\n",
+    "  Madison,4,202,50.5\n",
+    "  John,4,305,76.25\n",
+    "  Phil,6,249,41.5\n",
+    "  Madison,7,113,16.14\n",
+    "  Sally,6,256,42.67\n",
+    "  ```\n",
+    "\n",
+    "## Challenge\n",
+    "\n",
+    "Calculate the aggregate average for each unique customer name and output to a CSV file by completing the following steps:\n",
+    "\n",
+    "1. Initialize an `analysis` dictionary.\n",
+    "\n",
+    "2. Read and iterate over the `sales.csv` file using `csv.reader()`. Use an if-else statement to check the following:\n",
+    "\n",
+    "    * If the customer name is not already in the `analysis` dictionary, initialize the nested key-value pairs `count` and `revenue`.\n",
+    "\n",
+    "      ```python\n",
+    "      analysis[name] = {\n",
+    "          \"count\": count,\n",
+    "          \"revenue\": revenue\n",
+    "      }\n",
+    "      ```\n",
+    "\n",
+    "    * Else the customer name is already in the `analysis` dictionary, cumulatively add the `count` and `revenue` nested key-value pairs.\n",
+    "\n",
+    "      ```python\n",
+    "      analysis[name]['count'] += count\n",
+    "          analysis[name]['revenue'] += revenue\n",
+    "      ```\n",
+    "\n",
+    "3. Set the output file path for `aggregate.csv`.\n",
+    "\n",
+    "4. Write the contents of the `analysis` dictionary to `output.csv` using `csv.writer()`. Be sure to add a header to the CSV file.\n",
+    "\n",
+    "Your output should look similar to the following:\n",
+    "\n",
+    "```\n",
+    "Name,Count,Revenue,Average\n",
+    "Andrew,15,598,39.87\n",
+    "Phil,22,687,31.23\n",
+    "Madison,27,1126,41.7\n",
+    "Sally,16,529,33.06\n",
+    "Tyler,1,334,334.0\n",
+    "Billy,7,146,20.86\n",
+    "Steve,1,178,178.0\n",
+    "Sarah,15,380,25.33\n",
+    "Tim,6,689,114.83\n",
+    "Carl,2,674,337.0\n",
+    "Devon,9,220,24.44\n",
+    "Megan,9,321,35.67\n",
+    "David,2,246,123.0\n",
+    "Tom,5,221,44.2\n",
+    "Paul,5,399,79.8\n",
+    "John,4,305,76.25\n",
+    "```\n",
+    "\n",
+    "## Hint\n",
+    "\n",
+    "Remember that the `csvwriter.writerow()` takes in lists!\n",
+    "\n",
+    "---\n",
+    "\n",
+    "© 2019 Trilogy Education Services\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 75,
+   "id": "5aea433f-8d9a-4184-b239-9a890a0593cf",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import csv\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 78,
+   "id": "05a2017d-1fd6-445c-974e-e8edb38eeb12",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (1281110880.py, line 5)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  File \u001b[0;32m\"/var/folders/qk/ky5l2lgx5yd_09d2j843f0rh0000gn/T/ipykernel_89210/1281110880.py\"\u001b[0;36m, line \u001b[0;32m5\u001b[0m\n\u001b[0;31m    with open(vscpath, 'r') as csvfile.\u001b[0m\n\u001b[0m                                       ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "sales.csv = path\n",
+    "\n",
+    "records = []\n",
+    "\n",
+    "with open(vscpath, 'r') as csvfile.\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1a97455a-6fd3-47cf-a501-dba000664ead",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.13"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
